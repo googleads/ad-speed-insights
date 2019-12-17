@@ -1,3 +1,4 @@
+package.json
 {
   "name": "lighthouse-plugin-publisher-ads-wrapper",
   "version": "0.4.2",
