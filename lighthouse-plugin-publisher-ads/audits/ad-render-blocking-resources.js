@@ -22,9 +22,9 @@ const {isAdTag} = require('../utils/resource-classification');
 const {URL} = require('url');
 
 const UIStrings = {
-  title: 'Minimal render-blocking resources found',
-  failureTitle: 'Avoid render-blocking resources',
-  description: 'Render-blocking resources slow down tag load times. Consider ' +
+  title: 'Minimal synchronous resources found',
+  failureTitle: 'Avoid synchronous resources',
+  description: 'Synchronous resources slow down tag load times. Consider ' +
   'loading critical JS/CSS inline or loading scripts asynchronously or ' +
   'loading the tag earlier in the head. [Learn more](' +
   'https://developers.google.com/web/tools/lighthouse/audits/blocking-resources' +
@@ -133,11 +133,11 @@ class AdRenderBlockingResources extends Audit {
     const tableView = blockingNetworkRecords
         .map((r) => Object.assign({url: r.url}, timingsByRecord.get(r)));
 
-    tableView.sort((a, b) => a.endTime - b.endTime);
+    tableView.sort((a, b) => a.startTime - b.startTime);
 
-    // @ts-ignore
-    const endTimes = tableView.map((r) => r.endTime);
-    const opportunity = Math.max(...endTimes) - Math.min(...endTimes);
+    const opportunity =
+      Math.max(...tableView.map((r) => r.endTime)) -
+      Math.min(...tableView.map((r) => r.startTime));
     let displayValue = '';
     if (tableView.length > 0 && opportunity > 0) {
       displayValue = str_(
