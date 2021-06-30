@@ -1,4 +1,4 @@
-# Avoid loading ads until they are nearly on-screen
+# Lazy load ads below the fold
 
 ## Overview
 
@@ -17,4 +17,5 @@ for an example.
 ## More information
 
 [GPT Reference](https://developers.google.com/publisher-tag/reference)
+[GPT Samples](https://developers.google.com/publisher-tag/samples/lazy-loading)
 [Viewability best practices](https://support.google.com/admanager/answer/6199883)
