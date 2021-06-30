@@ -20,6 +20,33 @@
   "audits/ad-blocking-tasks.js | title": {
     "message": "N̂ó l̂ón̂ǵ t̂áŝḱŝ b́l̂óĉḱîńĝ ád̂-ŕêĺât́êd́ n̂ét̂ẃôŕk̂ ŕêq́ûéŝt́ŝ"
   },
+  "audits/ad-lcp.js | columnSize": {
+    "message": "Ŝíẑé"
+  },
+  "audits/ad-lcp.js | columnTime": {
+    "message": "T̂ím̂é"
+  },
+  "audits/ad-lcp.js | description": {
+    "message": "Âúd̂ít̂ś t̂h́ê śîźê óf̂ ćôńt̂én̂t́f̂úl̂ ṕâín̂t́ŝ ín̂śîd́ê óf̂ ád̂ íf̂ŕâḿêś âńd̂ ćôḿp̂ár̂éŝ ít̂ t́ô ćôńt̂én̂t́f̂úl̂ ṕâín̂t́ŝ ón̂ t́ĥé m̂áîń p̂áĝé."
+  },
+  "audits/ad-lcp.js | displayValueMayImpact": {
+    "message": "Âd́ŝ ḿâý îḿp̂áĉt́ L̂ĆP̂ (Ál̂ĺ-F̂ŕâḿêś)"
+  },
+  "audits/ad-lcp.js | displayValueMayImprove": {
+    "message": "Âd́ŝ ḿâý îḿp̂ŕôv́ê ĹĈṔ (Âĺl̂-F́r̂ám̂éŝ)"
+  },
+  "audits/ad-lcp.js | displayValueNoImpact": {
+    "message": "Âd́ŝ d́îd́ n̂ót̂ ím̂ṕâćt̂ ĹĈṔ"
+  },
+  "audits/ad-lcp.js | nameAdLcp": {
+    "message": "Âd́ L̂ĆP̂"
+  },
+  "audits/ad-lcp.js | nameMainFrameLcp": {
+    "message": "M̂áîń F̂ŕâḿê ĹĈṔ"
+  },
+  "audits/ad-lcp.js | title": {
+    "message": "Âd́ l̂ár̂ǵêśt̂ ćôńt̂én̂t́f̂úl̂ ṕâín̂t́"
+  },
   "audits/ad-render-blocking-resources.js | columnDuration": {
     "message": "D̂úr̂át̂íôń"
   },

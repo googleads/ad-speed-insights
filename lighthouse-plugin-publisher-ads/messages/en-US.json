@@ -27,6 +27,42 @@
     "message": "No long tasks blocking ad-related network requests",
     "description": "Title of the audit"
   },
+  "audits/ad-lcp.js | columnSize": {
+    "message": "Size",
+    "description": ""
+  },
+  "audits/ad-lcp.js | columnTime": {
+    "message": "Time",
+    "description": ""
+  },
+  "audits/ad-lcp.js | description": {
+    "message": "Audits the size of contentful paints inside of ad iframes and compares it to contentful paints on the main page.",
+    "description": ""
+  },
+  "audits/ad-lcp.js | displayValueMayImpact": {
+    "message": "Ads may impact LCP (All-Frames)",
+    "description": ""
+  },
+  "audits/ad-lcp.js | displayValueMayImprove": {
+    "message": "Ads may improve LCP (All-Frames)",
+    "description": ""
+  },
+  "audits/ad-lcp.js | displayValueNoImpact": {
+    "message": "Ads did not impact LCP",
+    "description": ""
+  },
+  "audits/ad-lcp.js | nameAdLcp": {
+    "message": "Ad LCP",
+    "description": ""
+  },
+  "audits/ad-lcp.js | nameMainFrameLcp": {
+    "message": "Main Frame LCP",
+    "description": ""
+  },
+  "audits/ad-lcp.js | title": {
+    "message": "Ad largest contentful paint",
+    "description": "Title of the audit"
+  },
   "audits/ad-render-blocking-resources.js | columnDuration": {
     "message": "Duration",
     "description": ""
